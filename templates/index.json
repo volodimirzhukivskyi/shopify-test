@@ -32,6 +32,36 @@
         "padding_bottom": 12
       }
     },
+    "test_block": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Тестовий блок",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Це тестовий блок. Заголовок і текст можна змінити в редакторі теми Shopify.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "collage-0": {
       "type": "collage",
       "blocks": {
@@ -94,6 +124,7 @@
   },
   "order": [
     "rich_text",
+    "test_block",
     "collage-0",
     "featured-collection"
   ]
