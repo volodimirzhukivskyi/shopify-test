@@ -15,7 +15,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "test",
             "heading_size": "h1"
           }
         }
@@ -66,18 +66,18 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
+        "collection": "all",
+        "products_to_show": 4,
         "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 4,
         "columns_desktop": 4,
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "image_shape": "default",
