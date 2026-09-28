@@ -63,6 +63,28 @@
         "padding_bottom": 40
       }
     },
+    "small_text_block": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ще один маленький текстовий блок для перевірки.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "collage-0": {
       "type": "collage",
       "blocks": {
@@ -126,6 +148,7 @@
   "order": [
     "rich_text",
     "test_block",
+    "small_text_block",
     "collage-0",
     "featured-collection"
   ]
